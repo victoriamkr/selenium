@@ -2,10 +2,12 @@ class Locators():
     # Home page locators
     search_textbox = "twotabsearchtextbox"
 
-    # search_dropdown = "nav-search-dropdown-card"
     search_dropdown = "searchDropdownBox"
+    category_books = '//*[@id="searchDropdownBox"]/option[6]'
+
     # search results page locators
-    search_result_link = '//*[@id="search"]/div[1]/div[2]/div/span[4]/div[1]/div[1]/div/span/div/div/span/a'
+    search_result_link = "a-size-medium"
+
 
     # product details page locators
     add_to_cart_button = "add-to-cart-button"
